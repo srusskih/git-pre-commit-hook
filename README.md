@@ -1,6 +1,7 @@
 This an exmaple of git hooks usage.
 
-In this case we are going run django tests for our projects before the commit and
+In this case we are going run django tests for our projects before a commit and
+do not allow make the commit without fixind tests :)
 
 How you can use it:
  1. copy `pre-commit` to your `.git/hooks` directory
